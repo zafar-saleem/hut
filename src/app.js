@@ -1,7 +1,7 @@
-import hello from './hello.js'
+import hello from './hello.js';
 
-console.log('Hello from APp!!!!!')
+console.log('Hello from APp!!!!!');
 
-console.log(hello)
+console.log(hello);
 
-console.log('Hello this is app.js file')
+console.log('Hello this is app.js file');

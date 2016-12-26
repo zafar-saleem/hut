@@ -1,3 +1,3 @@
-require('./styles/sass/demo.scss')
+require('./styles/sass/demo.scss');
 
-export default 'Hello from hello.js!!!'
+export default 'Hello from hello.js!!!';
