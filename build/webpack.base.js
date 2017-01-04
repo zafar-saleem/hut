@@ -26,10 +26,6 @@ module.exports = {
         ],
         loaders: [
             {
-                test: /\.html$/,
-                loader: 'html-loader'
-            },
-            {
                 test: /\.scss$/,
                 loaders: ['style', 'css', 'sass']
             },
@@ -46,6 +42,10 @@ module.exports = {
                     limit: 10000,
                     name: '[name]-[hash:7].[ext]'
                 }
+            },
+            {
+                test: /\.html$/,
+                loader: 'html-loader'
             }
         ]
     },
