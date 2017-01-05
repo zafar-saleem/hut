@@ -8,7 +8,6 @@ const compiler = webpack(config);
 const hotMiddleWare = require('webpack-hot-middleware')(compiler);
 
 chokidar.watch('./*.html').on('all', () => {
-    console.log('ON CHANGE');
     hotMiddleWare.publish({ action: 'reload' });
 });
 

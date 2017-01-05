@@ -3,7 +3,7 @@ const root = path.resolve(__dirname, '../');
 
 module.exports = {
     entry: {
-        app: ['./src/app.scss', './src/app.js']
+        app: ['./src/index.scss', './src/index.js']
     },
 
     output: {
