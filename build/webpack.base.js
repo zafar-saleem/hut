@@ -46,6 +46,10 @@ module.exports = {
             {
                 test: /\.html$/,
                 loader: 'html-loader'
+            },
+            {
+                test: /\.handlebars$/,
+                loader: 'handlebars-loader'
             }
         ]
     },

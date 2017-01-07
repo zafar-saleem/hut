@@ -34,5 +34,8 @@
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2",
     "webpack-hot-middleware": "^2.13.1"
+  },
+  "dependencies": {
+    "handlebars-loader": "^1.4.0"
   }
 }
