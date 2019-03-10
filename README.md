@@ -1,4 +1,12 @@
-## Usage
+### Hut
+
+Hut is a boilerplate for ES6+ syntax. It comes with babel that transpiles ES6+ to ES5 and webpack as build tool.
+
+### Requirements
+
+Hut needs `node` and `npm` to be installed on your machine.
+
+### Usage
 
 1. Clone this repository.
 2. Run npm install command to download and install all Webpack dependencies.
