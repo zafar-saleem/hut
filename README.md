@@ -1,4 +1,4 @@
-### Hut
+## Hut
 
 Hut is a boilerplate for ES6+ syntax. It comes with babel that transpiles ES6+ to ES5 and webpack as build tool.
 
