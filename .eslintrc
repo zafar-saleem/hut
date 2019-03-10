@@ -1,10 +1,10 @@
 {
     "extends": "standard",
     "rules": {
-        "semi": [2, "always"],
+        "semi": [0, "always"],
         "space-in-parens": 0,
         "space-before-function-paren": 0,
-        "indent": [WARN, 2],
+        "indent": [1, 2],
         "no-unused-vars": 0,
         "padded-blocks": 0
     }
