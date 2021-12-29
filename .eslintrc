@@ -1,11 +1,11 @@
 {
-    "extends": "standard",
-    "rules": {
-        "semi": [0, "always"],
-        "space-in-parens": 0,
-        "space-before-function-paren": 0,
-        "indent": [1, 2],
-        "no-unused-vars": 0,
-        "padded-blocks": 0
-    }
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": [1, 120, 2, {ignoreComments: true}],
+    "semi": [0, "always"],
+    "space-in-parens": 0,
+    "space-before-function-paren": 0,
+    "no-unused-vars": 0,
+    "padded-blocks": 0
+  }
 }

@@ -9,7 +9,7 @@ Hut needs `node` and `npm` to be installed on your machine.
 ### Usage
 
 1. Clone this repository.
-2. Run npm install command to download and install all Webpack dependencies.
-3. Run `npm run dev` to run the server on port `2770`. This command will run the project in development mode.
-4. To make it ready for deploy run `npm run build`. This command will minify all the resources in `/dist` folder.
-
+2. Run `yarn OR npm install` command to download and install all Webpack dependencies.
+3. Run `yarn serve` to run the server on `http://localhost:8080`. This command will run the project in development mode.
+4. To build the project for production run `yarn build:prod OR npm run build:prod` command. This will build the app for production and put all the files in `/dist` folder.
+5. To run production ready version on local environment, run `yarn serve:prod OR npm run serve:prod`. Then go to `http://localhost:8080`.

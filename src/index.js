@@ -1,2 +1,1 @@
-import Scripts from './scripts/scripts.js';
-
+console.log('Hello Hut');
